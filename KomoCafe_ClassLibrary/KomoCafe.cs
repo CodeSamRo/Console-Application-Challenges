@@ -20,7 +20,11 @@ namespace KomoCafe_ClassLibrary
         }
         public KomoCafe(int mealNumber, string mealName, string description, string ingredidents, int price)
         {
-
+            MealNumber = mealNumber;
+            MealName = mealName;
+            Description = description;
+            Ingredients = ingredidents;
+            Price = price;
         }
     }
 }
