@@ -9,6 +9,7 @@ namespace KomoCafe_UnitTests
         [TestMethod]
         public void TestMethod1()
         {
+
         }
     }
 }
