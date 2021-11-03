@@ -168,6 +168,10 @@ namespace KomoCafe_ConsoleApp
                             Console.WriteLine("Meal {0}. {1} has been deleted. Press anything to continue...", komoCafe.MealNumber, komoCafe.MealName);
                             komoCafeREPO.DeleteMeal(komoCafe);
                         }
+                        else
+                        {
+                            Console.WriteLine("Meal does not exist.");
+                        }
                     }
                 }
                 catch

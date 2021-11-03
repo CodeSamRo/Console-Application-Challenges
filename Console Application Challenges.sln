@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomoCafe_ClassLibrary", "Ko
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomoCafe_UnitTests", "KomoCafe_UnitTests\KomoCafe_UnitTests.csproj", "{03D8FB37-9ECF-4965-8F38-09432A25E28E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomoBadges_ClassLibrary", "KomoBadges_ClassLibrary\KomoBadges_ClassLibrary.csproj", "{00B11163-9C07-4A2A-9C1F-3617625C16F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomoBadges_ConsoleApp", "KomoBadges_ConsoleApp\KomoBadges_ConsoleApp.csproj", "{65999E64-10D5-4DBA-A23B-6759F79F8640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomoBadges_UnitTest", "KomoBadges_UnitTest\KomoBadges_UnitTest.csproj", "{7342DE95-B3BB-4DDC-8C91-FD6D44A35E30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +33,18 @@ Global
 		{03D8FB37-9ECF-4965-8F38-09432A25E28E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03D8FB37-9ECF-4965-8F38-09432A25E28E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03D8FB37-9ECF-4965-8F38-09432A25E28E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B11163-9C07-4A2A-9C1F-3617625C16F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B11163-9C07-4A2A-9C1F-3617625C16F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B11163-9C07-4A2A-9C1F-3617625C16F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B11163-9C07-4A2A-9C1F-3617625C16F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65999E64-10D5-4DBA-A23B-6759F79F8640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65999E64-10D5-4DBA-A23B-6759F79F8640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65999E64-10D5-4DBA-A23B-6759F79F8640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65999E64-10D5-4DBA-A23B-6759F79F8640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7342DE95-B3BB-4DDC-8C91-FD6D44A35E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7342DE95-B3BB-4DDC-8C91-FD6D44A35E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7342DE95-B3BB-4DDC-8C91-FD6D44A35E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7342DE95-B3BB-4DDC-8C91-FD6D44A35E30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
