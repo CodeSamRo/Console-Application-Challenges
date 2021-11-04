@@ -11,19 +11,22 @@ namespace KomoBadges_ClassLibrary
         //create a dictionary of badges
         //key for the dictionary will be the badgeID
         //the value for the dictionary will be the list of door names
-        KomoBadges KomoBadges = new KomoBadges();
-        Dictionary<int, string> newBadge = new Dictionary<int, string>();
-        public void CreateBadge()
+        Dictionary<int, List<string>> newBadge = new Dictionary<int, List<string>>();
+        public void CreateBadge(KomoBadges komoBadges)
         {
-            newBadge.Add(KomoBadges.BadgeID, KomoBadges.DoorNames);
+            newBadge.Add(komoBadges.BadgeID, new List<string>());
         }
-        public Dictionary<int, string> ViewBadge()
+        public void AddDoor(KomoBadges badgeID ,string door)
+        {
+            newBadge[badgeID.BadgeID].Add(door);
+        }
+        public Dictionary<int, List<string>> ViewBadge()
         {
             return newBadge;
         }
-        public void RemoveBadge()
+        public void RemoveBadge(KomoBadges komoBadges)
         {
-            newBadge.Remove(KomoBadges.BadgeID);
+            newBadge.Remove(komoBadges.BadgeID);
         }
 
 
