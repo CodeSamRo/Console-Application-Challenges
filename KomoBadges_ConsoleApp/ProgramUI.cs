@@ -191,7 +191,7 @@ namespace KomoBadges_ConsoleApp
                     case "2":
                         Console.Clear();
                         Console.WriteLine("\nWhat door should {0} have access to?\n", komoBadges.BadgeID);
-                        string addDoor = Console.ReadLine();
+                        string addDoor = Console.ReadLine().ToUpper();
                         foreach (var badge in listOfBadges)
                         {
                             if (badge.Value.Contains(addDoor))
