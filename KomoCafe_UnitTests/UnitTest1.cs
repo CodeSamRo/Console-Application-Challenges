@@ -18,18 +18,19 @@ namespace KomoCafe_UnitTests
         [TestMethod]
         public void CreateMeal_Test()
         {
-          bool wasAdded = komoCafeRepo.CreateMeal(komoCafe);
+            bool wasAdded = komoCafeRepo.CreateMeal(komoCafe);
             Assert.IsTrue(wasAdded);
         }
+        [TestMethod]
         public void DeleteMeal_Test()
         {
             bool wasDeleted = komoCafeRepo.DeleteMeal(komoCafe);
-            Assert.IsTrue(wasDeleted);
+            Assert.IsFalse(wasDeleted);
         }
+        [TestMethod]
         public void ViewMeal_Test()
         {
-            bool isTrue = komoCafeRepo.ViewMeal().TrueForAll();
-            if()
+            
         }
     }
 }
