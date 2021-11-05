@@ -15,6 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomoBadges_ConsoleApp", "Ko
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomoBadges_UnitTest", "KomoBadges_UnitTest\KomoBadges_UnitTest.csproj", "{7342DE95-B3BB-4DDC-8C91-FD6D44A35E30}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoClaim_ClassLibrary", "KomodoClaim_ClassLibrary\KomodoClaim_ClassLibrary.csproj", "{B9BCFF06-015A-4CCE-BA2C-983E67786320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoClaim_ConsoleApp", "KomodoClaim_ConsoleApp\KomodoClaim_ConsoleApp.csproj", "{5FBF6D41-933D-4E47-89EE-1A03226C51E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoClaim_UnitTestProject", "KomodoClaim_UnitTestProject\KomodoClaim_UnitTestProject.csproj", "{5C6904A4-F58D-486D-A22B-73AB2319DCA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +51,18 @@ Global
 		{7342DE95-B3BB-4DDC-8C91-FD6D44A35E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7342DE95-B3BB-4DDC-8C91-FD6D44A35E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7342DE95-B3BB-4DDC-8C91-FD6D44A35E30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9BCFF06-015A-4CCE-BA2C-983E67786320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9BCFF06-015A-4CCE-BA2C-983E67786320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9BCFF06-015A-4CCE-BA2C-983E67786320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9BCFF06-015A-4CCE-BA2C-983E67786320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FBF6D41-933D-4E47-89EE-1A03226C51E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FBF6D41-933D-4E47-89EE-1A03226C51E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FBF6D41-933D-4E47-89EE-1A03226C51E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FBF6D41-933D-4E47-89EE-1A03226C51E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C6904A4-F58D-486D-A22B-73AB2319DCA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C6904A4-F58D-486D-A22B-73AB2319DCA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C6904A4-F58D-486D-A22B-73AB2319DCA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C6904A4-F58D-486D-A22B-73AB2319DCA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
